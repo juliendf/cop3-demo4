@@ -10,7 +10,7 @@ terraform {
   }
 }
 
-
+/*
 data "aws_ami" "ubuntu" {
   most_recent = true
   filter {
@@ -31,3 +31,4 @@ resource "aws_instance" "web" {
     Name = "demo4"
   }
 }
+*/
